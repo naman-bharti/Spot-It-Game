@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">UserStories1</string>
+
+    <string name="rule_sub_item_1">Back</string>
+    <string name="rule_item1">Rule_Item1</string>
+    <string name="rule_description_title">Game introduction :</string>
+    <string name="rule_game_description">This is a game called Spot it!, a.k.a. Dobble.
+        This is a well known game in the Western Countries.
+        It is a simple pattern recognition game in which players try to find an image shown on two
+        cards.
+    </string>
+    <string name="rule_instruction_title">How to win :</string>
+    <string name="rule_instruction">Use the least amount of time to find the same image shown on
+        both cards! Less time is better!</string>
+    <string name="rule_cardWord_title">Words &amp; Images Mode:</string>
+    <string name="rule_cardWord">In this game mode, half of the time you will see the images are
+        replaced by the English word for the image.
+        The rule is the same! find the MATCH!!! </string>
+    <string name="rule_gameTime_title">Game Time:</string>
+    <string name="rule_gameTime">Now you can choose how long a game you want to be!
+    All you need to do is to select how many cards will be in the draw-pile.
+    \nThere are 5, 10, 15, 20, and all options for you to pick!</string>
+    <string name="rule_ownImg_title">*NEW UPDATE* \nSelect Own Images:</string>
+    <string name="rule_ownImg">Now you can select the images from your phone/Flickr!!! </string>
+    <string name="rule_sound_title">Sound Effects:</string>
+    <string name="rule_sound">You can hear a different sound effects when you \n
+    1.start playing a game \n
+    2.tap on the correct image / word \n
+    3.tap on the incorrect image / word \n
+    4.win a game</string>
+    <string name="rule_exportCard_title">Export cards to image file</string>
+    <string name="rule_exportCard">You can export the game cards to the file system.
+    So you can print those cards to play it in real life!</string>
+    <string name="rule_gameLevels_title">Game Levels</string>
+    <string name="rule_gameLevels">You can choose different levels for the game now
+    (Easy, Normal, Hard) modes.</string>
+    <string name="rule_Title">Help/Rule Screen</string>
+    <string name="rule_authors">This game is presented by GROUP 6</string>
+    <string name="rule_cite_title">Citation :</string>
+
+    <string name="rule_cite_food">
+        <a href="https://www.flaticon.com/packs/international-food-16?word=food">Food icons</a>
+    </string>
+
+    <string name="rule_cite_flags">
+        <a href="https://www.flaticon.com/packs/flags-18?word=flags">Flags icons</a>
+    </string>
+
+    <string name="rule_cite_welcome">
+        <a href="https://www.flaticon.com/free-icon/poker_1624736">Welcome pic</a>
+    </string>
+    <string name="rule_cite_alertbox">
+        <a href="https://www.flaticon.com/free-icon/applause_1998818?term=Congratulations&amp;page=1&amp;position=53">Alert box pic</a>
+    </string>
+    <string name="rule_cite_name">
+        <a href="https://www.flaticon.com/free-icon/gamepad_860353">Get name pic</a>
+    </string>
+    <string name="rule_cite_teampic">
+        <a href="https://www.flaticon.com/free-icon/group_921347">Team pic</a>
+    </string>
+    <string name="rule_cite_sound">*Audio from Windows 10 media folder
+        (Windows Unlock, Windows Recycle, Windows Pop-up blocked, town, tada*</string>
+
+    <string name="main_start_btn">Start</string>
+    <string name="main_rank_btn">Ranking</string>
+    <string name="main_setting_btn">Setting</string>
+    <string name="main_rule_btn">Rule</string>
+
+    <string name="draw_pile">DRAW PILE</string>
+    <string name="discard_pile">DISCARD PILE</string>
+    <string name="timer">TIMER:</string>
+    <string name="high_score_title">High Scores</string>
+    <string name="high_score_names">Nickname</string>
+    <string name="high_score_rank">Rank</string>
+    <string name="high_score_date">Date</string>
+    <string name="high_score_time">Time (sec)</string>
+    <string name="high_score_reset">Reset Scores</string>
+
+    <string name="save">save</string>
+    <string name="OK">ok</string>
+
+    <string name="settings_title">Settings Screen</string>
+    <string name="benny_gurpreet_kevin_naman">Benny•Gurpreet•Kevin•Naman</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="settings">SETTINGS</string>
+    <string name="timed_solo_deck">Timed Solo Deck</string>
+
+    <string name="setting_theme_title">SELECT A THEME</string>
+    <string name="setting_order_title">SELECT NUMBER OF ORDER</string>
+    <string name="setting_time_title">SELECT HOW LONG IS THE GAME</string>
+    <string name="setting_gameMode_title">SELECT A GAME MODE</string>
+    <string name="setting_gameLevels_title">SELECT EASY/NORMAL/HARD MODE</string>
+
+    <string name="you_re_awesome">YOU\'RE AWESOME!</string>
+    <string name="title_activity_single_fragment">SingleFragmentActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="rank_config_order_string">Select your order:</string>
+    <string name="rank_config_cards_string">Select your cards:</string>
+    <string name="rank_menu">Menu</string>
+    <string name="rank_back">Back</string>
+    <string name="rank_reset">Reset current scoreboard</string>
+    <string name="rank_change">Change scoreboard</string>
+    <string name="clear_search">Clear search</string>
+    <string name="item">Item</string>
+    <string name="search">search</string>
+    <string name="edit_current_set">Edit current set</string>
+    <string name="add_images_to_flickr_image_set">Add images to flickr image set</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="back">Back</string>
+    <string name="export_current_cards">EXPORT CURRENT CARDS</string>
+    <string name="you_did_it">YOU DID IT!</string>
+    <string name="export_cards">Export Cards</string>
+    <string name="export_cards_hint">Exported cards will be saved to /Pictures/saved_cards/. Check Photos app in the emulator!</string>
+    <string name="add_images_from_gallery">ADD IMAGES FROM GALLERY</string>
+    <string name="edit_image_set">EDIT IMAGE SET</string>
+    <string name="rankTitleAll">High Scores (Order: %d Cards: All)</string>
+    <string name="rankTitle">"High Scores (Order: %d Cards: %d)</string>
+</resources>

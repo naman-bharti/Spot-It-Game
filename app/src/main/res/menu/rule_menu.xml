@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/rule_items"
+        android:icon="@drawable/ic_back_icon"
+        android:title="@string/rule_item1"
+        app:showAsAction="ifRoom">
+
+        <menu>
+
+            <item android:id="@+id/rule_subitem1"
+                android:title="@string/rule_sub_item_1"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>

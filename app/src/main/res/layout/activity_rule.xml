@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="UI.RuleActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/rule_toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rule_description_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_description_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_game_description"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_instruction_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_instruction_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_instruction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_instruction"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_cardWord_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_cardWord_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_cardWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_cardWord"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_gameTime_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_gameTime_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_gameTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_gameTime"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_ownImg_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_ownImg_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_ownImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_ownImg"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_sound_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_sound_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_sound"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_exportCard_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_exportCard_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_exportCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_exportCard"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_gameLevels_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_gameLevels_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_gameLevels"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_gameLevels"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rule_cite_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/rule_cite_title"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rule_cite_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_food"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_blue_light"/>
+
+                <TextView
+                    android:id="@+id/rule_cite_flags"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_flags"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_blue_light"/>
+
+                <TextView
+                    android:id="@+id/rule_cite_welcome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_welcome"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_blue_light"/>
+
+                <TextView
+                    android:id="@+id/rule_cite_alertbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_alertbox"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_blue_light"/>
+
+                <TextView
+                    android:id="@+id/rule_cite_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_name"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_blue_light"/>
+
+                <TextView
+                    android:id="@+id/rule_cite_teampic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_teampic"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_blue_light"/>
+
+                <TextView
+                    android:id="@+id/rule_cite_sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_cite_sound"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"/>
+
+                <ImageView
+                    android:id="@+id/rule_team_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/team"/>
+
+
+                <TextView
+                    android:id="@+id/rule_authors"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/rule_authors"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

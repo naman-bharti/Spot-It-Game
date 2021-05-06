@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name= "word2">
+        <item>Hot Dog</item>
+        <item>Chicken Leg</item>
+        <item>Cookies</item>
+        <item>French Fries</item>
+        <item>Ribs</item>
+        <item>Dosa</item>
+        <item>Cannoli</item>
+        <item>Ham</item>
+        <item>Noodles</item>
+        <item>Onigiri</item>
+        <item>Tortilla</item>
+        <item>Burrito</item>
+        <item>Salad</item>
+        <item>Guacamole</item>
+        <item>Croissant</item>
+        <item>IndianFood</item>
+        <item>Meatballs</item>
+        <item>Skewer</item>
+        <item>Sandwich</item>
+        <item>Pancakes</item>
+        <item>Dumplings</item>
+        <item>Fish</item>
+        <item>Buns</item>
+        <item>Rice</item>
+        <item>Samosa</item>
+        <item>Sushi</item>
+        <item>Muffin</item>
+        <item>Crepe</item>
+        <item>Gelato</item>
+        <item>Bread</item>
+        <item>Prawn</item>
+    </array>
+</resources>

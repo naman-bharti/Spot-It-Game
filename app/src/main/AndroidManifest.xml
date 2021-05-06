@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.cmpt276.userstories1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/welcomelogo"
+        android:label="@string/timed_solo_deck"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".UI.PhotoGalleryActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".UI.EditPhotoSetActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".UI.SingleFragmentActivity"
+            android:label="@string/title_activity_single_fragment" />
+        <activity
+            android:name=".UI.GameOrderThreeActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.GameOrderFiveActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.GetNameActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.SettingActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:label="@string/settings_title"
+            android:parentActivityName=".UI.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.GameOrderTwoActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.RankingActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:parentActivityName=".UI.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.RuleActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:label="@string/rule_Title"
+            android:parentActivityName=".UI.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".UI.WelcomeScreenActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.MainActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

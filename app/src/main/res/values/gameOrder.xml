@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gameOrders">
+        <item>3 images per card</item>
+        <item>4 images per card</item>
+        <item>6 images per card</item>
+    </string-array>
+
+    <string name="default_orders">3 images per card</string>
+
+</resources>

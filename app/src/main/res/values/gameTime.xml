@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gameTime">
+        <item>5 cards</item>
+        <item>10 cards</item>
+        <item>15 cards</item>
+        <item>20 cards</item>
+        <item>all cards</item>
+    </string-array>
+
+    <string name="default_time">all cards</string>
+
+</resources>

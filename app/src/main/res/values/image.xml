@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="card">
+        <item>@drawable/flag01_hk</item>
+        <item>@drawable/flag02_fr</item>
+        <item>@drawable/flag03_mx</item>
+        <item>@drawable/flag04_eg</item>
+        <item>@drawable/flag05_th</item>
+        <item>@drawable/flag06_ca</item>
+        <item>@drawable/flag07_nl</item>
+        <item>@drawable/flag08_es</item>
+        <item>@drawable/flag09_dk</item>
+        <item>@drawable/flag10_ch</item>
+        <item>@drawable/flag11_pt</item>
+        <item>@drawable/flag12_us</item>
+        <item>@drawable/flag13_pe</item>
+        <item>@drawable/flag14_au</item>
+        <item>@drawable/flag15_it</item>
+        <item>@drawable/flag16_cl</item>
+        <item>@drawable/flag17_ua</item>
+        <item>@drawable/flag18_sa</item>
+        <item>@drawable/flag19_sg</item>
+        <item>@drawable/flag20_br</item>
+        <item>@drawable/flag21_no</item>
+        <item>@drawable/flag22_fi</item>
+        <item>@drawable/flag23_pl</item>
+        <item>@drawable/flag24_gr</item>
+        <item>@drawable/flag25_ru</item>
+        <item>@drawable/flag26_cz</item>
+        <item>@drawable/flag27_ve</item>
+        <item>@drawable/flag28_se</item>
+        <item>@drawable/flag29_uk</item>
+        <item>@drawable/flag30_id</item>
+        <item>@drawable/flag31_za</item>
+
+    </array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="card2">
+        <item>@drawable/food01_hot_dog</item>
+        <item>@drawable/food02_chicken_leg</item>
+        <item>@drawable/food03_cookies</item>
+        <item>@drawable/food04_french_fries</item>
+        <item>@drawable/food05_ribs</item>
+        <item>@drawable/food06_dosa</item>
+        <item>@drawable/food07_cannoli</item>
+        <item>@drawable/food08_ham</item>
+        <item>@drawable/food09_noodles</item>
+        <item>@drawable/food10_onigiri</item>
+        <item>@drawable/food11_tortilla</item>
+        <item>@drawable/food12_burrito</item>
+        <item>@drawable/food13_salad</item>
+        <item>@drawable/food14_guacamole</item>
+        <item>@drawable/food15_croissant</item>
+        <item>@drawable/food16_indian_food</item>
+        <item>@drawable/food17_meatballs</item>
+        <item>@drawable/food18_skewer</item>
+        <item>@drawable/food19_sandwich</item>
+        <item>@drawable/food20_pancakes</item>
+        <item>@drawable/food21_dumplings</item>
+        <item>@drawable/food22_fish</item>
+        <item>@drawable/food23_buns</item>
+        <item>@drawable/food24_rice</item>
+        <item>@drawable/food25_samosa</item>
+        <item>@drawable/food26_sushi</item>
+        <item>@drawable/food27_muffin</item>
+        <item>@drawable/food28_crepe</item>
+        <item>@drawable/food29_ice_cream</item>
+        <item>@drawable/food30_bread</item>
+        <item>@drawable/food31_prawn</item>
+
+    </array>
+</resources>

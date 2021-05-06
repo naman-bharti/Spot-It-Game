@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="UI.SettingActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/setting_toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/setting_theme_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:text="@string/setting_theme_title"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/themes_grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/setting_orders_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:text="@string/setting_order_title"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/selectOrders_grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/setting_time_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:text="@string/setting_time_title"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/selectTime_grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp" />
+
+            <TextView
+                android:id="@+id/setting_gameMode_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:text="@string/setting_gameMode_title"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/selectGameMode_grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp">
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/setting_export_cards_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:text="@string/export_current_cards"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/exportCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="@string/export_cards" />
+
+            <TextView
+                android:id="@+id/hintExportText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/export_cards_hint"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/setting_gameLevels_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/fontdiner_swanky"
+                android:text="@string/setting_gameLevels_title"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/selectGameLevels_grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp" />
+
+            <Button
+                android:id="@+id/add_imgs_to_flickr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_images_to_flickr_image_set"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_for_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_images_from_gallery"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_for_edit_img_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_image_set"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name= "word">
+        <item>HongKong</item>
+        <item>France</item>
+        <item>Mexico</item>
+        <item>Egypt</item>
+        <item>Thailand</item>
+        <item>Canada</item>
+        <item>Netherlands</item>
+        <item>Spain</item>
+        <item>Denmark</item>
+        <item>Switzerland</item>
+        <item>Portugal</item>
+        <item>U.S.A</item>
+        <item>Peru</item>
+        <item>Australia</item>
+        <item>Italy</item>
+        <item>Chile</item>
+        <item>Ukraine</item>
+        <item>SaudiArabia</item>
+        <item>Singapore</item>
+        <item>Brazil</item>
+        <item>Norway</item>
+        <item>Finland</item>
+        <item>Poland</item>
+        <item>Greece</item>
+        <item>Russia</item>
+        <item>CzechRepublic</item>
+        <item>Venezuela</item>
+        <item>Sweden</item>
+        <item>U.K</item>
+        <item>Indonesia</item>
+        <item>SouthAfrica</item>
+    </array>
+</resources>

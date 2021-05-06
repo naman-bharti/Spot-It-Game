@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gameThemes">
+        <item>Flags</item>
+        <item>Food</item>
+    </string-array>
+
+    <string name="default_theme">Flags</string>
+
+</resources>

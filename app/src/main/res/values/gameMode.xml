@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gameModes">
+        <item>Spot it!</item>
+        <item>Words &amp; Images</item>
+        <item>Flickr and Gallery Images</item>
+    </string-array>
+
+    <string name="default_mode">Spot it!</string>
+
+</resources>
